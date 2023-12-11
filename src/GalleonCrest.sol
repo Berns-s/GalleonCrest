@@ -36,11 +36,11 @@ contract CrimsonGalleon is Ownable(msg.sender), VRFConsumerBaseV2 {
 
     uint256 public lastCalled;
 
-    uint256 wagerValue = 1000000 gwei;
+    uint256 wagerValue = 200000000 gwei;
 
-    uint256 winValue = 900000 gwei;
+    uint256 winValue = 180000000 gwei;
 
-    uint256 creatorValue = 10000 gwei;
+    uint256 creatorValue = 20000000 gwei;
 
     uint256 pickUpValue = 90000 gwei;
 
